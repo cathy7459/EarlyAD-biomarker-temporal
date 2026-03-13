@@ -16,7 +16,7 @@ suppressPackageStartupMessages({
   library(stringr)
 })
 
-# source(file.path("utils", "training_data_preparation_utils.R"))
+source(file.path("R/utils/enet/training_data_preparation_utils.R"))
 
 log_step <- function(text) {
   message(sprintf("[%s] %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), text))
