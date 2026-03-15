@@ -4,7 +4,7 @@ suppressPackageStartupMessages({
   library(limma)
 })
 
-#source(file.path("PCGS", "utils.R"))
+source(file.path("R/utils", "PCGS.R"))
 
 log_step <- function(text) {
   message(sprintf("[%s] %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), text))
