@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-# enet_train, test.R
+# enet_train_test.R
 # Elastic Net model training and external validation.
 #
 # This script assumes that the training and test cohorts have already been
